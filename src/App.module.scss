@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+
+    .app_container {
+        display: flex;
+        min-height: calc(99vh);
+        flex-direction: column;
+
+        .content_wrapper {
+            margin-top: 3.8rem;
+            min-height: calc(100vh - 9.8rem);
+        }
+    }
+}
+

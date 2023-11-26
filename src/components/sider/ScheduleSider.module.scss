@@ -1,0 +1,54 @@
+.relative {
+    position: relative;
+    height: 100%;
+
+    .sider {
+        position: absolute;
+        
+        .menu_container {
+            height: 100%;
+            overflow-y: scroll;
+        }
+
+        .sider_menu {
+            height: 100%;
+        }
+
+        .schedule_depth1 {
+            width: 92%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .schedule_depth2 {
+            width: 87%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .schedule_depth3 {
+            width: 87%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .schedule_depth4 {
+            width: 83%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.sider_fixed {
+    position: fixed;
+    top: 3.8rem;
+}
+
+.sider_collapsed {
+    width: 4vw;
+}
+
+.sider_open {
+    width: 15vw;
+}

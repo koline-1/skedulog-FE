@@ -1,0 +1,25 @@
+{
+    "auth" : {
+        "logIn": {
+            "key": "logIn",
+            "link": "/login",
+            "text": "로그인"
+        },
+        "logOut": {
+            "key": "logOut",
+            "text": "로그아웃"
+        },
+        "member": {
+            "key": "member",
+            "link": "/member/me",
+            "text": "회원정보"
+        }
+    },
+    "common": [
+        {
+            "key": "daily",
+            "link": "/schedule/daily",
+            "text": "일별 스케줄"
+        }
+    ]
+}

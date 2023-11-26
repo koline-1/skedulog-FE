@@ -1,0 +1,11 @@
+.error_container {
+    display: table;
+    table-layout:fixed;
+    width:100%;
+    height: calc(100vh - 9.8rem);
+
+    .error {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

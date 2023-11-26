@@ -1,0 +1,26 @@
+.footer_container {
+    position: relative;
+    height: 96px;
+
+    .footer {
+        text-align: center;
+        height: 6rem;
+
+        .footer_space {
+            display: flex;
+            justify-content: center;
+
+            * {
+                margin-inline: 0.3vw; 
+            }
+
+            .footer_space_divider {
+                color: lightgrey;
+            }
+
+            img {
+                width: 110px;
+            }
+        }
+    }
+}
